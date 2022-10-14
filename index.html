@@ -21,16 +21,18 @@
       <div class="shape"></div>
       <div class="shape"></div>
     </div>
-    <form>
+    <form action="" onsubmit="validate();return false">
       <h3>Login Here</h3>
 
-      <label for="username">Username</label>
-      <input type="text" placeholder="Email or Phone" id="username" />
+      <label for="email">Email</label>
+      <input type="email" placeholder="Email" id="email" />
 
       <label for="password">Password</label>
       <input type="password" placeholder="Password" id="password" />
 
-      <button type="submit">Log In</button>
+      <button>Log In</button>
     </form>
+
+    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
